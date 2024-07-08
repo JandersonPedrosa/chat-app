@@ -24,17 +24,17 @@
                 </div>
                 <button>⋮</button>
             </header>
-            <main>
+            <main class="main">
                 <div class="msg-he">
                     <p>That sounds great. I’d be happy with that.</p>
                 </div>
                 <div class="msg-he">
                     <p>Could you send over some pictures of your dog, please?</p>
                 </div>
-                <picture>
-                    <img src="assets/img/dog-image-1.jpg" alt="dog image">
-                    <img src="assets/img/dog-image-2.jpg" alt="dog image">
-                    <img src="assets/img/dog-image-3.jpg" alt="dog image">
+                <picture class="picture">
+                    <img class="img-dog" src="assets/img/dog-image-1.jpg" alt="dog image">
+                    <img class="img-dog" src="assets/img/dog-image-2.jpg" alt="dog image">
+                    <img class="img-dog" src="assets/img/dog-image-3.jpg" alt="dog image">
                 </picture>
                 <div class="msg-she">
                     <p>Here are a few pictures. She’s a happy girl! </p>
@@ -46,18 +46,22 @@
                     <p>She looks so happy! The time we discussed works. How long shall I take her out for?</p>
                 </div>
                 <div class="price">
-                    <input type="radio" name="" id="">
-                    <p>30 minute walk</p>
-                    <span>$29</span>
+                    <div class="time-input">
+                        <input class="radio-input" type="radio" name="time" id="">
+                        <p>30 minute walk</p>
+                    </div>
+                    <span><strong>$29</strong></span>
                 </div>
                 <div class="price">
-                    <input type="radio" name="" id="">
-                    <p>1 hour walk</p>
-                    <span>$49</span>
+                    <div class="time-input">
+                        <input class="radio-input" type="radio" name="time" id="">
+                        <p>1 hour walk</p>
+                    </div>
+                    <span><strong>$49</strong></span>
                 </div>
-                <div>
-                    <input type="text" name="" id="">
-                    <button>></button>
+                <div class="type-msg-container">
+                    <input class="text-input" type="text" name="" id="" placeholder="Type a message...">
+                    <button class="send">></button>
                 </div>
             </main>
         </div>
